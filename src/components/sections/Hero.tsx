@@ -46,10 +46,6 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick }) => {
             <span className="text-xs font-sans font-semibold tracking-wider text-neutral-200 uppercase">
               {badgeText}
             </span>
-            <span className="text-neutral-400 text-xs">•</span>
-            <span className="text-xs font-sans font-medium text-neutral-300">
-              {DEVELOPER_INFO.domain}
-            </span>
           </div>
 
           {/* Monumental Personal Headline */}

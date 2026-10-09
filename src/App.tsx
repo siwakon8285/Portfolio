@@ -53,8 +53,8 @@ export const AppContent: React.FC = () => {
         <MacOsProjectWindow />
       </main>
 
-      {/* Apple Minimalist Footer (Dock removed) */}
-      <Footer onScrollToTop={() => handleNavigate('hero')} />
+      {/* Apple Minimalist Footer */}
+      <Footer />
     </div>
   );
 };

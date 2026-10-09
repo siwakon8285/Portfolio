@@ -87,7 +87,7 @@ export const MacOsProjectWindow: React.FC = () => {
   return (
     <section
       id="projects"
-      aria-label="X-Fly Transit Developer Showcase"
+      aria-label="Architecture & Projects Showcase"
       className="relative min-h-screen w-full bg-black py-28 px-4 sm:px-6 md:px-12 overflow-hidden flex flex-col justify-center"
     >
       {/* Ambient background glows */}
@@ -105,12 +105,12 @@ export const MacOsProjectWindow: React.FC = () => {
           </div>
 
           <h2 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-white mb-3 font-sans">
-            {isTh ? 'สถาปัตยกรรมและผลงาน X-Fly Transit' : 'X-Fly Transit Engineering'}
+            {isTh ? 'สถาปัตยกรรมและผลงาน' : 'Architecture & Projects'}
           </h2>
           <p className="text-sm sm:text-base text-neutral-300/80 font-sans leading-relaxed">
             {isTh
-              ? 'ระบบกระจายเส้นทางความเร็วสูง ผ่านสภาพแวดล้อม VS Code พร้อมเทอร์มินัลและพรีวิวหน้าเว็บจริง'
-              : 'High-throughput transit dispatch engine inside a production VS Code environment with live terminal & web preview.'}
+              ? 'จำลองขั้นตอนการพัฒนาจริง ผ่านสภาพแวดล้อม VS Code พร้อมเทอร์มินัลและพรีวิวหน้าเว็บแอปพลิเคชัน'
+              : 'A complete developer workflow simulation inside a production VS Code environment with live terminal & web preview.'}
           </p>
         </div>
 
